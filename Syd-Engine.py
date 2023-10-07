@@ -554,7 +554,7 @@ while running:
     mpy = int(ny + bx * pon(face[2]))
         
     if keys[pygame.K_w]:
-        sw += 1
+        sw += 2
         if (0 <= mpx < len(map[0][0])
             and map[0][k[0]][int(mpx)] not in wall):
             k[1] = int(nx)
